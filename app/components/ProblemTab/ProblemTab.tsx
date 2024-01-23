@@ -65,6 +65,7 @@ const problems = [
     link: "/problems/string-to-integer",
   },
   { id: 8, name: "Integer to Roman", link: "/problems/integer-to-roman" },
+  {id:9,name:"Dummy Question" , link:"/problems/dummy"}
 ];
 
 export default ProblemTab;
