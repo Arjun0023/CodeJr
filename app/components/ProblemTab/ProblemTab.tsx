@@ -17,7 +17,7 @@ const ProblemTab = () => {
       <div className="flex flex-col md:flex-col lg:flex-row items-center justify-evenly">
         <Intro />
         <div className="max-w-xl w-full md:w-1/2 md:pt-16 lg:pt-16 xl:pt-16 pl-4 pr-4 ">
-          <h2 className="text-4xl font-bold mb-4 text-center">Problems</h2>
+          <h2 className="text-4xl font-bold mb-4 text-center">Get Started</h2>
           {problems.map((problem) => (
             <div
               key={problem.id}
@@ -34,7 +34,7 @@ const ProblemTab = () => {
                 className="bg-green-500 text-white py-2 px-4 rounded-lg hover:bg-green-600 transition duration-300"
                 onClick={() => handleSolve(problem.link)}
               >
-                Solve
+                Get Started
               </button>
             </div>
           ))}
